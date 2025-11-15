@@ -47,11 +47,11 @@ export const sendEmail = async ({
   const fromAddress =
     from ??
     (marketing
-      ? "Marc from Papermark <marc@ship.papermark.io>"
+      ? "Marc from Papermark <onboarding@resend.com>"
       : system
-        ? "Papermark <system@papermark.io>"
+        ? "Papermark <onboarding@resend.com>"
         : verify
-          ? "Papermark <system@verify.papermark.io>"
+          ? "Papermark <onboarding@resend.com>"
           : !!scheduledAt
             ? "Marc Seitz <marc@papermark.io>"
             : "Marc from Papermark <marc@papermark.io>");
